@@ -27,6 +27,11 @@ function Header() {
       command: () => navigate(`/power-bi`),
     },
     {
+      label: "Predicciones",
+      icon: "pi pi-cog",
+      command: () => navigate(`/predictions`),
+    },
+    {
       label: "Mis postulaciones",
       icon: "pi pi-list",
       command: () => navigate(`/proposal/${user?._id}`),

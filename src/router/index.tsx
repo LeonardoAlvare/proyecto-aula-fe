@@ -8,6 +8,7 @@ import Project from "../pages/project/Project";
 import Proposal from "../pages/proposal/Proposal";
 import Profile from "../pages/profile/Profile";
 import PowerBI from "../pages/power-bi/PowerBI";
+import Predictions from "../pages/predictions/Predictions";
 
 const router = createBrowserRouter(
   [
@@ -38,6 +39,10 @@ const router = createBrowserRouter(
         {
           path: "/power-bi",
           element: <PowerBI />,
+        },
+        {
+          path: "/predictions",
+          element: <Predictions />,
         },
       ],
     },
